@@ -8,6 +8,7 @@
 
 ---
 - What are packages
+--> We can create our own packages easily
 --> Code which is written by any other developer and made available publically for everyone so developers can use it.
 --> All packages are stored on npmjs.com website which we can explore.
 
@@ -18,7 +19,8 @@
 > package's code come to node_modules folder on your local system
 
 >>> package-lock.json
->
+> packages ek dusre pe dependent hote hai kuch kuch independent bhi hote hain
+> this is managed by this file
 
 >>> package.json
 > aapka js ka code kon kon se package pe depend karta hai unka list
