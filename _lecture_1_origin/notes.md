@@ -13,7 +13,9 @@
 
 --> What are these files?
 >>> node_modules
-> 
+> packages code avaibale on npm website
+> bring that code to my system
+> package's code come to node_modules folder on your local system
 
 >>> package-lock.json
 >
