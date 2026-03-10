@@ -38,6 +38,21 @@
 
 ---
 - What is a server
+--> Server ek machine hai jiske pass khudka hai:
+    - ek operating system
+    - ek processor hai
+    - ek RAM/Storage hai
+--> Fir ye hamari mobile se alag kaise hua kyuki hamare mobile me bhi ye sari chizen hai, toh isme ek difference aata hai:
+    - Server machine toh hoti hai
+    - Lekin usko iss trike se program kiya jata hai ki user jo bhi request bhejega usko ek proper response mil sake
+    - machine programmed -> request <-> response = server
+--> example:
+    - amazon.in
+    - search headphone on search bar
+    - toh kuch response milenge search se related
+    - toh ye hua aise ki, jo amazon ka server hai usey program kiya gya ki user jo bhi input krega uske related response dikhana
+
+---
 - Create server with Express
 - Program server to response to users
 - Deploy server
