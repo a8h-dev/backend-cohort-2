@@ -55,7 +55,8 @@
 ---
 - Create server with Express
 --> npm init -y >> means ham ek nodejs application start krne wale hain
---> 
+--> now we'll need express package
+--> npm i express
 
 ---
 - Program server to response to users

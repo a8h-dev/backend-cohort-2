@@ -2,7 +2,7 @@
   "dependencies": {
     "cat-me": "^1.0.3"
   },
-  "name": "_lecture_1_origin",
+  "name": "lecture_1_origin",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
