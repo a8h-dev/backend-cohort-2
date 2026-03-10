@@ -1,0 +1,17 @@
+- Communication, personality, skill, presentation = good resource
+- Reverse engineering term
+- Own touch on projects make them next level
+- Sync Space (Bada project)
+- Strategic conversation is important
+- Make small projects if mind becomes blank while creating big
+- Obsessed > Mehnat > Personality > Top 10% 
+- Integration is very important for full stack development
+- Frontend > integration > backend > revert to frontend > full stack mega project
+- Developer mindset > Kuch bhi dedo main banake de dunga kaise wo main dekh lunga
+- Phase: Tutorials > References > Documentation
+- English Content dekho for being comfortable with english
+- GenAI after good backend
+- Learners have to be flexible
+- Perplexity banaya jayega
+- ATS friendly projects for jobs
+- Projects: Figma, Google Drive, Google Photos
