@@ -41,3 +41,9 @@
 - Create server with Express
 - Program server to response to users
 - Deploy server
+
+---
+> Rules:
+> no doubt keeping, solve it before moving ahead
+> no other course, only and only cohort-2.0
+> just follow blindly and be capable of creating your imaginations
