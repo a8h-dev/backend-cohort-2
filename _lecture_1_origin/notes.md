@@ -11,6 +11,16 @@
 --> Code which is written by any other developer and made available publically for everyone so developers can use it.
 --> All packages are stored on npmjs.com website which we can explore.
 
+--> What are these files?
+>>> node_modules
+> 
+
+>>> package-lock.json
+>
+
+>>> package.json
+> aapka js ka code kon kon se package pe depend karta hai unka list
+
     - How to install packages
     --> Let's install acute package known as cat-me
     --> Install package - Bring code from npm website to your system
