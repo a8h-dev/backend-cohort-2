@@ -10,6 +10,10 @@
 --> All packages are stored on npmjs.com website which we can explore.
 
     - How to install packages
+    --> Let's install acute package known as cat-me
+    --> Install package - Bring code from npm website to your system
+    --> npm i cat-me
+
     - How to use packages
 - What is a server
 - Create server with Express
