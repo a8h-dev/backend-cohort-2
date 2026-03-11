@@ -20,3 +20,12 @@ Notes Task:
 -> See Created Notes
 -> Update Notes
 -> Delete Notes
+
+-> Postman as user / 
+-> Thunder Client vs code extension but not powerful as Postman
+-> JSON format for communication
+-> post method me data req.body me aata hai
+-> req.body ka data express server by default padhne ke liye capable nhi hota hai
+-> req.body ka data padhne ke liye ham ek middleware use karenge app.use(express.json());
+-> api name same but method different
+-> I am loving backend
