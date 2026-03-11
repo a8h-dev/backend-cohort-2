@@ -14,3 +14,9 @@ for example:
 - Communication ke hisaab se method decide hogi GET, POST, PUT, PATCH, DELETE
 
 # Creating mini Project with REST API.
+
+Notes Task:
+-> Create notes
+-> See Created Notes
+-> Update Notes
+-> Delete Notes
