@@ -7,4 +7,10 @@ for example:
 2. insta server , facebook server
 
 # What is REST API.
+-> PDF notes provided.
+
+-> Sirf 2 main rules hain
+- HTTP/HTTPS protocol
+- Communication ke hisaab se method decide hogi GET, POST, PUT, PATCH, DELETE
+
 # Creating mini Project with REST API.
