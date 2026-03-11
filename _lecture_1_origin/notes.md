@@ -60,10 +60,6 @@
 --> server create > server start > req, res code
 
 ---
-- Program server to response to users
-- Deploy server
-
----
 > Rules:
 > no doubt keeping, solve it before moving ahead
 > no other course, only and only cohort-2.0
