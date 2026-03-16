@@ -32,3 +32,5 @@ rs -> to restart terminal server
 
 # EJS
 -> EJS (Embedded JavaScript) ek templating engine hai jo HTML ke andar JavaScript use karke dynamic web pages banane ke liye Express/Node.js me use hota hai.
+
+Mongo DB BSON
