@@ -29,3 +29,6 @@ rs -> to restart terminal server
 -> Open source contribution
 -> Connection string (password dhyaan se) mongodb compass me jakr connect krlo
 -> Hence Database Cohort-2.0 created and connected
+
+# EJS
+-> EJS (Embedded JavaScript) ek templating engine hai jo HTML ke andar JavaScript use karke dynamic web pages banane ke liye Express/Node.js me use hota hai.
