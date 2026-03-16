@@ -11,6 +11,8 @@ security layer on mongo => network access | database user
 -> const noteModel = mongoose.model("notes", noteSchema); yeha notes basically notes naam ka collection hai, jisme notes ke sare data rhenge
 -> Model ke bina ek bhi operation perform nhi ho payega
 
+Schema -> Database ko batana ki kis format me data store krni hai
+Model -> crud operations perform krne ke liye model ki jrurt pdegi
 
 # leart by observation
 -> Trailing comma = optional but recommended
