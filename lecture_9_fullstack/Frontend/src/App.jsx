@@ -11,6 +11,12 @@ const App = () => {
     });
   }
 
+  function handleSubmit(e){
+    e.preventDefault();
+    const {title, description} = e.target.elements;
+    console.log(title.value, description.value);
+  }
+
   useEffect(() => {
     fetchNotes();
 
@@ -18,9 +24,9 @@ const App = () => {
 
   return (
     <>
-      <form className="note-create-form">
-        <input type="text" placeholder="Enter title" />
-        <input type="text" placeholder="Enter description" />
+      <form className="note-create-form" onSubmit={handleSubmit}>
+        <input name="title" type="text" placeholder="Enter title" />
+        <input name="description" type="text" placeholder="Enter description" />
         <button>Create Note</button>
       </form>
       <div className="notes">
