@@ -32,4 +32,17 @@ app.get("/api/notes", async (req, res) => {
     })
 })
 
+// DELETE /api/notes/:id
+// Delete note with the id from req.params
+
+app.delete("/api/notes/:id", async (req, res) => {
+    const id = req.params.id;
+    const deletedNote = await noteModel.findByIdAndDelete(id);
+
+    res.status(200).json({
+        message: `Note deleted successfully of id: ${id}`,
+        deletedNote: deletedNote
+    })
+})
+
 module.exports = app;
