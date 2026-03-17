@@ -20,4 +20,16 @@ app.post("/api/notes", async (req, res) => {
     })
 })
 
+// GET /api/notes
+// Fetch all the data from notes and send them in the response
+
+app.get("/api/notes", async (req, res) => {
+    const notes = await noteModel.find(); 
+    // find method hamesha ek array return krti hai, data array of objects ke format me aata hai
+    res.status(200).json({
+        message: "Notes fetched successfully",
+        notes
+    })
+})
+
 module.exports = app;
