@@ -23,6 +23,14 @@ const App = () => {
     })
   }
 
+  function handleDeleteNote(noteId){
+    axios.delete(`${import.meta.env.VITE_API_URL}/api/notes/`+noteId)
+    .then(res=>{
+      console.log(res.data);
+      fetchNotes();
+    })
+  }
+
   useEffect(() => {
     fetchNotes();
 
@@ -41,6 +49,7 @@ const App = () => {
             <div key={index} className="note">
               <h1>{note.title}</h1>
               <p>{note.description}</p>
+              <button onClick={()=>{handleDeleteNote(note._id)}}>Delete</button>
             </div>
           );
         })}
