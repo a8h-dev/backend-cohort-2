@@ -14,7 +14,13 @@ const App = () => {
   function handleSubmit(e){
     e.preventDefault();
     const {title, description} = e.target.elements;
-    console.log(title.value, description.value);
+    axios.post(`${import.meta.env.VITE_API_URL}/api/notes`, {
+      title: title.value,
+      description: description.value
+    }).then(res=>{
+      console.log(res.data);
+      fetchNotes();
+    })
   }
 
   useEffect(() => {
