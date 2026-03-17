@@ -13,11 +13,16 @@ const App = () => {
 
   useEffect(() => {
     fetchNotes();
-    
+
   }, []);
 
   return (
     <>
+      <form className="note-create-form">
+        <input type="text" placeholder="Enter title" />
+        <input type="text" placeholder="Enter description" />
+        <button>Create Note</button>
+      </form>
       <div className="notes">
         {notes.map((note, index) => {
           return (
