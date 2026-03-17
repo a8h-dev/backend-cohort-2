@@ -4,13 +4,16 @@ import axios from "axios";
 const App = () => {
   const [notes, setNotes] = useState([]);
 
-  console.log("Hello integration");
-
-  useEffect(() => {
+  function fetchNotes(){
     axios.get(`${import.meta.env.VITE_API_URL}/api/notes`)
     .then((res) => {
       setNotes(res.data.notes);
     });
+  }
+
+  useEffect(() => {
+    fetchNotes();
+    
   }, []);
 
   return (
