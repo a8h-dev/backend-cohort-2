@@ -2,3 +2,6 @@
 2. Database connect
 3. userSchema & userModel create
 4. routes & controllers files
+
+1. user ka data save karna DB me DONE
+2. token create user ke liye, user data ke sath DOING
