@@ -21,3 +21,5 @@ Cookies storage:
 -> npm i cookie-parser
 -> cookie pe data rakh kyu rhe?
 -> kyuki cookie ka data ko server user ke har request ke sath khud hi padh lega hame manually code nhi karna prega ki token server pe bhejo
+-> token create kab hota hai:
+-> user register krega ya login krega sirf tab
