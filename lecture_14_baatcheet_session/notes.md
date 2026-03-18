@@ -1,0 +1,4 @@
+-> Life me ek baar ghisna toh padta hai
+-> body bhukhi hai toh nind nhi aati toh padhai kar sakte hain
+-> Skill > Degree
+-> Awesome skill is mandatory before money. Learn before earn.
