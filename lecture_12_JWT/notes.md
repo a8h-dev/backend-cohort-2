@@ -10,3 +10,12 @@ jwtsecrets.com
 jwt.io encode decode
 
 npm i jsonwebtoken
+
+ab user register ke baad token create hokr user ke pass ja rha hai
+rule: ki ab user jitna bhi request krega server pe har request ke sath token jayega
+
+Cookies storage:
+-> client side pe rehti hai 
+-> server cookies storage ke andar data write and read kr sakta hai
+-> user register -> token create -> client side pe cookie me token save
+-> npm i cookie-parser
