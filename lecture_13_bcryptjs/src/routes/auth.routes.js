@@ -1,6 +1,7 @@
 const express = require("express");
 const userModel = require("../models/user.model");
 const jwt = require("jsonwebtoken");
+const crypto = require("crypto");
 
 const authRouter = express.Router();
 // app.js file ke alawa agar kisi aur file me api create krni hai toh hame express.Router() ka use krna padta hai.
@@ -17,9 +18,11 @@ authRouter.post("/register", async (req, res) => {
     });
   }
 
+  const hash = crypto.createHash("md5").update(password).digest("hex");
+
   const user = await userModel.create({
     email,
-    password,
+    password: hash,
     name,
   });
 
