@@ -58,7 +58,7 @@ authRouter.post("/login", async (req, res) => {
     })
   }
 
-  const isPasswordMatched = user.password === password;
+  const isPasswordMatched = user.password === crypto.createHash("md5").update(password).digest("hex");
 
   if(!isPasswordMatched){
     return res.status(401).json({
