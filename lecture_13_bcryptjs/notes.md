@@ -11,3 +11,5 @@ pure life ka sabse bura din ek backend developer ke liya ho sakta hai ki uska da
 -- password -> hashing algorithm -> well calculated hash
 -- input same -> output same (one way)
 -- hash !-> not plain text
+
+# Agar koi bhi hash ko wapis se plain text me convert krne ka algorithm develop kar liya toh usey koi bhi company millions ke salary me hire kar legi
