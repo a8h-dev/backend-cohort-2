@@ -9,6 +9,9 @@
 -- Token user ko de diya jata hai
 -- Ab user ke kuch bhi request ke andar ye token ki copy jani chahiye
 -- ab server identify kar sakta hai request kis user se ayi hai
+-- Server token pe sign krta hai
+-- Signature with a secret name JWT_SECRET jo server pe sirf save hota hai
+-- JWT_SECRET -> 93052c11ef1556440409ffc9837fcd6e6f7d1620 kuch aisa rehta
 
 > Authorization
 > user kya kya kar sakta hai
