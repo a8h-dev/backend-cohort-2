@@ -19,3 +19,5 @@ Cookies storage:
 -> server cookies storage ke andar data write and read kr sakta hai
 -> user register -> token create -> client side pe cookie me token save
 -> npm i cookie-parser
+-> cookie pe data rakh kyu rhe?
+-> kyuki cookie ka data ko server user ke har request ke sath khud hi padh lega hame manually code nhi karna prega ki token server pe bhejo
