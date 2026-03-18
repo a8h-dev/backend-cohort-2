@@ -7,5 +7,6 @@
 2. token create user ke liye, user data ke sath DOING
 signature with a secret name JWT_SECRET
 jwtsecrets.com
+jwt.io encode decode
 
 npm i jsonwebtoken
